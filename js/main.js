@@ -48,7 +48,7 @@ function load_schedule(json_data, parent) {
             years[y].forEach((e) => {
                 let date = new Date(e.date);
                 date = date.toLocaleDateString(undefined, { month: 'long', day: 'numeric' });
-                console.log(date)
+
                 let flyer = "";
                 if (e.flyer) {
                     flyer = `<div class="flyer">
