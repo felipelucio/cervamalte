@@ -51,8 +51,11 @@ function load_schedule(json_data, parent) {
 
                 let flyer = "";
                 if (e.flyer) {
+                    let flyer_link = e.flyer_link || e.house_link || e.house_address_link;
                     flyer = `<div class="flyer">
-                        <img src="flyers/${e.flyer}" />
+                        <a target="_blank" href="${flyer_link}">
+                            <img src="flyers/${e.flyer}" />
+                        </a>
                     </div>`;
                 }
                 events_html += `
