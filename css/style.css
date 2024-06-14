@@ -232,7 +232,7 @@ section h1 {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #schedule article {
@@ -241,6 +241,7 @@ section h1 {
     color: #111;
     padding: 1em;
     border-radius: 2px;
+    min-width: 400px;
 }
 
 #schedule .header {
@@ -292,6 +293,14 @@ section h1 {
     margin-left: 0.5em;
 }
 
+footer {
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+}
+
 @media screen and (max-width: 586px) {
     section .container {
         margin: 0;
@@ -334,4 +343,9 @@ section h1 {
     #schedule .flyer img {
         max-width: 70vw;
     }
+
+    #schedule article {
+        min-width: 80%;
+    }
+
 }

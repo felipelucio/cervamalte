@@ -1,11 +1,23 @@
 [
     {
-        "date": "2023-10-21",
-        "flyer": "2023-10-21.jpg",
-        "show_start": "22:00",
-        "house_name": "Baruck's Show Bar",
-        "house_link": "https://www.instagram.com/barucksshow/",
-        "house_address": "Rua Lino Coutinho, 1579 - Ipiranga - São Paulo - SP",
-        "house_address_link": "https://www.google.com/maps/place/R.+Lino+Coutinho,+1579+-+Ipiranga,+S%C3%A3o+Paulo+-+SP,+04207-002/@-23.5973768,-46.6016815,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce5b8dbe49bd35:0xfaf997b543057fb9!8m2!3d-23.5973768!4d-46.6016815!16s%2Fg%2F11c3q4cpvr?entry=ttu"    
+        "date": "2024-09-21 GMT-03:00",
+        "show_start": "16:00",
+        "house_name": "Evento Particular",
+        "house_address": "Suzano - SP"
+    },
+    {
+        "date": "2024-06-22 GMT-03:00",
+        "show_start": "14:00",
+        "house_name": "Evento Particular",
+        "house_address": "Butantã - São Paulo - SP"
+    },
+    {
+        "date": "2024-06-15 GMT-03:00",
+        "flyer": "2024-06-15.jpg",
+        "show_start": "14:00",
+        "house_name": "Feira do Empreendedor - Colorado Gardens",
+        "house_link": "https://www.instagram.com/colorado.gardens/",
+        "house_address": "Rua Mônaco, 121 - Jardim Têxtil - São Paulo - SP",
+        "house_address_link": "https://www.google.com.br/maps/place/R.+M%C3%B4naco,+121+-+Jardim+Textil,+S%C3%A3o+Paulo+-+SP,+03413-030/@-23.5543773,-46.5522225,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce5e7859c15203:0xa3e068de75ae224b!8m2!3d-23.5543823!4d-46.5473516!16s%2Fg%2F11cslgd8td?entry=ttu"
     }
 ]
