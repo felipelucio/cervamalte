@@ -1,0 +1,142 @@
+.schedule_year .closed,
+.schedule_month .closed {
+    display: none;
+}
+
+.schedule_year {
+    width: 100%;
+}
+
+.schedule_year a:link {
+    color: rgb(139, 20, 20);
+    text-decoration: none;
+}
+
+.schedule_year a:hover {
+    color: #555;
+}
+
+.schedule_year a:visited {
+    color: rgb(139, 20, 20);
+}
+
+.schedule_year .year_label {
+    display: block;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 1px #fff solid;
+    margin: 0;
+    padding: 0.5em 0;
+    text-align: center;
+    margin-block: 0.83em 0;
+    width: 100%;
+}
+.schedule_year .year_label:hover {
+    background-color:#555
+}
+
+.schedule_month .month_label {
+    display: block;
+    font-size: 1.17em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: left;
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 1px #fff solid;
+    margin: 0;
+    padding: 0.5em 0;
+    padding-left: 0.5em;
+    width: 100%;
+}
+.schedule_month .month_label:hover {
+    background-color: #555;
+}
+
+.schedule_month h3 {
+    border-bottom: 1px #fff solid;
+    margin: 0;
+    padding: 0.5em 0;
+    text-transform: capitalize;
+}
+
+.schedule_month_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    transition: height 1s;
+}
+
+.schedule_date {
+    margin: 2em;
+    background: #fff;
+    color: #111;
+    padding: 1em;
+    border-radius: 4px;
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.schedule_date .header {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.schedule_date .flyer {
+    text-align: center;
+}
+
+.schedule_date .flyer img {
+    max-width: 300px;
+    border-radius: 4px;
+}
+
+.schedule_date .address {
+    margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 586px) {
+    .schedule_date {
+        min-width: 75%;
+        max-width: 75%;
+    }
+
+    .schedule_date .flyer img {
+        max-width: 70vw;
+    }
+}
+
+@keyframes popIn {
+    from {
+        filter: blur(10px);
+        opacity: 0;
+        transform: scale(1.2);
+    }
+  
+    to {
+        filter: blur(0);
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes popOut {
+    from {
+        filter: blur(0);
+        opacity: 1;
+        transform: scale(1);
+    }
+  
+    to {
+        filter: blur(10px);
+        opacity: 0;
+        transform: scale(1.2);
+    }
+}
